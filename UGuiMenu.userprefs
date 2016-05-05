@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/mainMenu/mainMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/gameMenu/DragAndPop.cs" Line="39" Column="36" />
-      <File FileName="Assets/Scripts/commonS.cs" Line="12" Column="29" />
-      <File FileName="Assets/Scripts/gameMenu/gameScene.cs" Line="22" Column="29" />
-      <File FileName="Assets/Scripts/mainMenu/mainMenu.cs" Line="21" Column="39" />
+      <File FileName="Assets/Scripts/gameMenu/DragAndPop.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/commonS.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/gameMenu/gameScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/mainMenu/mainMenu.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
