@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class mainMenu : MonoBehaviour {
 
@@ -20,11 +21,11 @@ public class mainMenu : MonoBehaviour {
     }
     void OnGUI() {
         GUI.DrawTexture(new Rect(0, 0, commonS.ScreenWidth, commonS.ScreenHeight), background,ScaleMode.ScaleToFit);
-        GUI.Box(new Rect(commonS.ScreenWidth/2, commonS.ScreenHeight * 0.1f, commonS.ScreenWidth, commonS.ScreenHeight), "TaiDou", style);
-        if(GUI.Button(new Rect(commonS.ScreenWidth / 2, commonS.ScreenHeight * 0.4f, commonS.normalButtonWidth,commonS.normalButtonHeight),"Let's go")){
-            
+        GUI.Box(new Rect((commonS.ScreenWidth - "TaiDou".Length*style.fontSize/2) / 2, commonS.ScreenHeight * 0.1f, commonS.ScreenWidth, commonS.ScreenHeight), "TaiDou", style);
+        if(GUI.Button(new Rect((commonS.ScreenWidth - commonS.normalButtonWidth) / 2, commonS.ScreenHeight * 0.4f, commonS.normalButtonWidth,commonS.normalButtonHeight),"Let's go")){
+            SceneManager.LoadScene("game");
         }
-        if ( GUI.Button(new Rect(commonS.ScreenWidth / 2, commonS.ScreenHeight * 0.6f, commonS.normalButtonWidth, commonS.normalButtonHeight), "Quit") ) {
+        if ( GUI.Button(new Rect((commonS.ScreenWidth - commonS.normalButtonWidth) / 2, commonS.ScreenHeight * 0.6f, commonS.normalButtonWidth, commonS.normalButtonHeight), "Quit") ) {
             Application.Quit();
         }
     }
