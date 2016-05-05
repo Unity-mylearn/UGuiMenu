@@ -1,7 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum Tai{
+	SHEQU,
+	TAIK,
+	EDU
+}
+
 public static class commonS {
+
+	public static bool[] result = {false,false,false};
 
     public static int ScreenWidth;
     public static int ScreenHeight;
@@ -12,7 +20,10 @@ public static class commonS {
     public static int scrollWidth = 400;
     public static int scrollHeight = 500;
 
-    public static string info = "点个按钮看看。";
+    public static string info = "点个按钮看看,点个图标看看。";
+
+	public static string finish = "哇，你已经成功认识了泰斗。";
+
     public static string info_shequ = "泰斗社区包含游戏开发，移动开发，互联网技术相关内容。" +
        " 在这里每一个开发者都可以找到自己想要的资源，unity3d教程、unity3d视频、unity3d插件源码、整套游戏源码，素材等。" +
         "我们在免费网校（taidous.com/free）的基础上，独创了“带你学”这种免费的网上教学模式，我们把这种教学称作：橙课 。" +

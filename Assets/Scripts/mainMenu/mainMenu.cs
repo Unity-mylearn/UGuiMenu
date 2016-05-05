@@ -18,6 +18,7 @@ public class mainMenu : MonoBehaviour {
 
         style = new GUIStyle();
         style.fontSize = 100;
+		style.normal.textColor = Color.blue;
     }
     void OnGUI() {
         GUI.DrawTexture(new Rect(0, 0, commonS.ScreenWidth, commonS.ScreenHeight), background,ScaleMode.ScaleToFit);

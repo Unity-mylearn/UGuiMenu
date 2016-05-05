@@ -1,0 +1,17 @@
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/UnityEngine.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/UnityEditor.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Mono.Cecil.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Unity.DataContract.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/bonbon/Desktop/UGuiMenu/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/bonbon/Desktop/UGuiMenu/obj/Debug/Assembly-CSharp.dll
+/Users/bonbon/Desktop/UGuiMenu/obj/Debug/Assembly-CSharp.dll.mdb
